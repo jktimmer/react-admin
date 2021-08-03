@@ -1,0 +1,53 @@
+.title {
+  margin-bottom: 10px;
+}
+.contentBox {
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  height: 200px;
+  .leftCol {
+    padding: 10px 0px 10px 20px;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    .leftItem {
+      padding: 8px;
+      cursor: pointer;
+    }
+    .leftItemActive::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      border-left: 3px solid #1890ff;
+    }
+    .leftItemActive {
+      position: relative;
+      background-color: #e6f7ff;
+    }
+  }
+  .midCol {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    text-align: center;
+    background-color: #e2e2e2;
+    height: 100%;
+    overflow: hidden;
+  }
+  .rightCol {
+    padding: 10px 0px 10px 20px;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    .rightItem {
+      margin-top: 20px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

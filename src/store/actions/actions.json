@@ -1,0 +1,34 @@
+[
+  {
+    "type": "userInfo",
+    "payload": {}
+  },
+  {
+    "type": "token",
+    "payload": ""
+  },
+  {
+    "type": "theme",
+    "payload": "light"
+  },
+  {
+    "type": "collapsed",
+    "payload": false
+  },
+  {
+    "type": "login",
+    "isMiddleware": true,
+    "middlewarePath": "login",
+    "payload": {}
+  },
+  {
+    "type": "logout",
+    "isMiddleware": true,
+    "middlewarePath": "logout"
+  },
+  {
+    "type": "getUserInfo",
+    "isMiddleware": true,
+    "middlewarePath": "getUserInfo"
+  }
+]

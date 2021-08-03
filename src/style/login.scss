@@ -1,0 +1,213 @@
+.login_main {
+  .login-page .container{
+    // position: relative;
+    // flex: 2;
+    // height: 100%;
+    // padding: 0 20px;
+    // height: 330px;
+    // .ant-form-item {
+    //   max-width: 450px;
+    //   min-width: 300px;
+    //   // margin-left: auto;
+    //   // margin-right: auto;
+    //   .ant-form-item-label {
+    //     padding-bottom: 10px;
+    //   }
+    //   .ant-form-item-explain {
+    //     margin-bottom: 10px;
+    //   }
+    //   label {
+    //     height: 30px;
+    //   }
+    //   // align-content: center;
+    // }
+    
+  }
+  #login-page {
+    position: fixed;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background:#666;
+    z-index: 99;
+  }
+  #login-page #backgroundBox {
+    min-width: 600px;
+    background-color: #999;
+    // background-image: url('@assets/login/bg.png');
+    height: 100%;
+    flex: 3;
+    img {
+      width: calc(100% + 50px);
+      height: 100%;
+    }
+  }
+  #login-page .container {
+    flex: 2;
+    position: relative;
+    width: 100%;
+  }
+  #login-page .container .login-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    height: 400px;
+    max-width: 550px;
+    min-width: 400px;
+    padding: 40px 40px 15px 40px;
+    // background-color: #f0f8ff;
+    transition: all 1s;
+    backface-visibility: hidden;
+    margin: auto;
+    // border-radius: 6px;
+    // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+    #login-page .container .login-box-leave{
+      transform:rotateY(180deg);
+      visibility: hidden;
+    }
+    #login-page .container .login-box-active{
+      transform:rotateY(0deg);
+      visibility: visible;
+    }
+//   #login-page .container .login-box .owl{
+//     position: absolute;
+//     top: -100px;
+//     left: 50%;
+//     margin-left: -111px;
+//     width: 211px;
+//     height: 108px;
+//     background-image: url("../assets/login/owl-login.png");
+//   }
+//   #login-page .owl .hand{
+//     position: absolute;
+//     left: 14px;
+//     bottom: -8px;
+//     width: 34px;
+//     height: 34px;
+//     border-radius: 40px;
+//     background-color: #472d20;
+//     transition: .3s ease-out;
+//     transform: scaleY(0.6);
+//   }
+//   #login-page .owl .hand.hand-left{
+//     left: 170px;
+//   }
+//   #login-page .owl .arms-box{
+//     position: absolute;
+//     top: 58px;
+//     height: 41px;
+//     width: 100%;
+//     overflow: hidden;
+//   }
+//   #login-page .owl .arms{
+//     position: absolute;
+//     top: 40px;
+//     width: 40px;
+//     height: 65px;
+//     transition: 0.3s ease-out;
+//     background-image: url("../assets/login/owl-login-arm.png");
+//   }
+//   #login-page .owl .arms-left{
+//     left: 158px;
+//     transform: rotate(20deg) scaleX(-1);
+//   }
+//   #login-page .owl .arms-right{
+//     left: 20px;
+//     transform: rotate(-20deg);
+//   }
+  
+//   #login-page .ant-input{
+//     outline: none;
+//     border:none;
+//     box-shadow: none;
+//   }
+//   #login-page .ant-input-group-addon{
+//     background-color: #6a7989;
+//     padding:0;
+//     border: none;
+//   }
+//   #login-page .iconfont{
+//     display: inline-block;
+//     color: #fff;
+//     width: 50px;
+//     transition: all .3s;
+//   }
+//   #login-page .ant-form-item-with-help{
+//     margin-bottom: 24px;
+//   }
+//   #login-page .ant-form-item-explain{
+//     position: absolute;
+//     z-index: 99;
+//     left:110%;
+//     top:0;
+//     height: 40px;
+//     // width: 120px;
+//     background-color: #fff;
+//     border: 1px solid #CFCFCF;
+//     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+//     line-height: 40px;
+//     padding:0 15px;
+//     word-break: keep-all;
+//     color:rgba(0, 0, 0, 0.65);
+//   }
+//   #login-page .registerSubmit .ant-form-item-explain{
+//     // width: 160px;
+//   }
+  
+//   #login-page .ant-form-item-explain:before{
+//     content:'';
+//     position: absolute;
+//     left: -14px;
+//     top:12px;
+//     width: 0;
+//     height: 0;
+//     border-right: 14px solid #CFCFCF;
+//     border-top: 8px solid transparent;
+//     border-bottom: 8px solid transparent;
+//   }
+//   #login-page .ant-form-item-explain:after{
+//     content:'';
+//     position: absolute;
+//     left: -13px;
+//     top:12px;
+//     width: 0;
+//     height: 0;
+//     border-right: 14px solid #fff;
+//     border-top: 8px solid transparent;
+//     border-bottom: 8px solid transparent;
+//   }
+//   #login-page .container .login-box .bottom{
+//     padding: 15px 0;
+//     text-align: right;
+//   }
+//   #login-page .login-box .bottom .registerBtn{
+//     color: #999;
+//     cursor: pointer;
+//   }
+//   #login-page .login-box .bottom .register:hover{
+//     cursor: pointer;
+//   }
+  #login-page .login-box .back {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  #login-page .login-box .bottom .gobackBtn{
+    float: left;
+    color: #999;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .btn .ant-btn-lg {
+    width: 100%;
+    font-size: 14px;
+  }
+}

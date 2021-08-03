@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "es6",
+        "baseUrl": ".",
+        "paths": {
+            "@/*":["src/*"],
+            "@api/*": ["src/api/*"],
+            "@assets/*": ["src/assets/*"],
+            "@components/*": ["src/components/*"],
+            "@configs/*":["src/configs/*"],
+            "@routes/*": ["src/routes/*"],
+            "@pages/*":["src/pages/*"],
+            "@style/*": ["src/style/*"],
+            "@store/*": ["src/store/*"],
+            "@utils/*": ["src/util/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

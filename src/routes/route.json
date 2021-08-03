@@ -1,0 +1,39 @@
+[
+  {
+    "path": "/",
+    "hidden": true,
+    "exact": true,
+    "perm": false,
+    "componentPath":"base/base_index"
+  },
+  {
+    "path":"/userCenter",
+    "exact": true,
+    "name":"用户中心",
+    "icon": "User",
+    "hidden": true,
+    "perm": false,
+    "componentPath":"user/center"
+  },
+  {
+    "name": "系统设置",
+    "svg": "icon_system",
+    "path":"/settings",
+    "children": [
+      {
+        "path":"/settings/persons",
+        "exact": true,
+        "name":"人员管理",
+        "icon": "User",
+        "componentPath":"settings/persons/list"
+      },
+      {
+        "path":"/settings/roles",
+        "exact": true,
+        "name":"角色管理",
+        "icon": "User",
+        "componentPath":"settings/roles/list"
+      }
+    ]
+  }
+]

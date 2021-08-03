@@ -1,0 +1,42 @@
+#base_page {
+  font-size: 100%;
+}
+// .router {
+//   margin:0;
+//   padding:0;
+// }
+// .router-in-enter, .router-in-exit {
+//   opacity: 0;
+//   transform: translateX(100%) scale(0.5);
+// }
+
+// .router-in-enter-active, .router-in-exit-active {
+//   opacity: 1;
+//   transform: translateX(0) scale(1);
+//   transition-property: transform;
+//   transition-duration: 500ms;
+//   transition-timing-function: ease-out;
+// }
+.site-layout-background {
+  overflow-y: auto;
+}
+.router-animated {
+  animation: testRouter 800ms ease;
+}
+@keyframes testRouter {
+  0% {
+    opacity: 0;
+    transform: translateX(100%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+.upfile {
+  width: 120px !important;
+  height: 120px;
+  img {
+    object-fit: fill !important;
+  }
+}

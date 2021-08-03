@@ -1,0 +1,77 @@
+{ 
+  "/api/admin/admin/login": {
+    "errno": 200,
+    "data": "jjjiihihihihi",
+    "errmsg": "success"
+  },
+  "/api/admin/admin/info": {
+    "errno": 200,
+    "errmsg": "success",
+    "data": {
+      "avatarUrl": "https://dgj-test.oss-cn-hangzhou.aliyuncs.com/imgs/37c547cee7b24283a5b64a82b6ce8bf8.jpg",
+      "gmtCreate": "2020-10-13 21:50:38",
+      "gmtLastLogin": "2021-08-03 10:09:54",
+      "id": 1,
+      "isSuper": 1,
+      "lastLoginIp": "172.17.0.1",
+      "perms": ["*"],
+      "phone": "18299999999",
+      "realname": "jackchen",
+      "status": 1,
+      "username": "jackchen"
+    }
+  },
+  "/api/admin/role/options": {
+    "errno": 200,
+    "errmsg": "success",
+    "data": [
+      {
+        "label": "测试2",
+        "value": 1
+      }
+    ]
+  },
+  "/api/admin/admin/page": {
+    "errno": 200,
+    "errmsg": "success",
+    "data":{
+      "items":[
+        {
+          "id":4,
+          "gmtCreate":"2021-07-30 12:08:07",
+          "username":"cccccc",
+          "phone":"18299095155",
+          "realname":"阿卡丽",
+          "status":1,
+          "isSuper":0,
+          "lastLoginIp":"172.17.0.1",
+          "gmtLastLogin":"2021-07-30 18:16:58",
+          "roles":["*"],
+          "roleIds":[1]
+        }
+      ],
+      "pageNo":1,
+      "pageSize":10,
+      "count":2,
+      "total":2,
+      "msg":"第1页,共2条",
+      "totalPageNo":1
+    }
+  },
+  "/api/admin/role/list": {
+    "errno": 200,
+    "errmsg": "success",
+    "data": [
+      {
+        "description": "测试1200",
+        "id": 3,
+        "name": "23",
+        "permissions":[
+          {
+            "/settings": [ "*" ]
+          }
+        ]
+      }
+    ]
+  }
+}

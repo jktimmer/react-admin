@@ -1,0 +1,260 @@
+[
+  {
+    "name": "login",
+    "path": "/api/admin/admin/login",
+    "describe": "登录",
+    "method": "post"
+  },
+  {
+    "name": "logout",
+    "path": "/api/admin/admin/logout",
+    "describe": "退出登录",
+    "method": "post"
+  },
+  {
+    "name": "getAdminList",
+    "path": "/api/admin/admin/page",
+    "describe": "管理员分页列表" ,
+    "method": "get"
+  },
+  {
+    "name": "getAdminRolesList",
+    "path": "/api/admin/role/list",
+    "describe": "管理员角色列表" ,
+    "method": "get"
+  },
+  {
+    "name": "getUserInfo",
+    "path": "/api/admin/admin/info",
+    "describe": "获取用户信息",
+    "method": "get"
+  },
+  {
+    "name": "createAdminInfo",
+    "path": "/api/admin/admin/create",
+    "describe": "创建管理员",
+    "method": "post"
+  },
+  {
+    "name": "updateAdminInfo",
+    "path": "/api/admin/admin/update",
+    "describe": "更新管理员",
+    "method": "post"
+  },
+  {
+    "name": "delAdminInfo",
+    "path": "/api/admin/admin/delete",
+    "describe": "删除管理员",
+    "method": "post"
+  },
+  {
+    "name": "getAllRoles",
+    "path": "/api/admin/role/options",
+    "describe": "获取所有角色选项",
+    "method": "get"
+  },
+  {
+    "name": "createRole",
+    "path": "/api/admin/role/create",
+    "describe": "创建角色",
+    "method": "post"
+  },
+  {
+    "name": "updateRole",
+    "path": "/api/admin/role/update",
+    "describe": "更新角色",
+    "method": "post"
+  },
+  {
+    "name": "delRole",
+    "path": "/api/admin/role/delete",
+    "describe": "删除角色",
+    "method": "post"
+  },
+  {
+    "name": "getCustomerInput",
+    "path": "/api/admin/customerInput/page",
+    "describe": "资信录入列表分页",
+    "method": "get"
+  },
+  {
+    "name": "getCustomerManagerList",
+    "path": "/api/admin/customerRegister/page",
+    "describe": "客户申请列表分页",
+    "method": "get"
+  },
+  {
+    "name": "fileUpload",
+    "path": "/api/admin/file/fileUpload",
+    "describe": "文件上传",
+    "method": "post"
+  },
+  {
+    "name": "getCustomerDetails",
+    "path": "/api/admin/customerRegister/customerDetails",
+    "describe": "资信客户信息详情",
+    "method": "get"
+  },
+  {
+    "name": "customCreateOrUpdate",
+    "path": "/api/admin/customerRegister/createOrUpdate",
+    "describe": "创建-更新资信客户",
+    "method": "post"
+  },
+  {
+    "name": "setCustomRegister",
+    "path": "/api/admin/customerRegister/register",
+    "describe": "处理资信客户",
+    "method": "post"
+  },
+  {
+    "name": "getLoanProductsList",
+    "path": "/api/admin/loanProducts/page",
+    "describe": "贷款产品分页列表",
+    "method": "get"
+  },
+  {
+    "name": "getLoanProductsAllList",
+    "path": "/api/admin/loanProducts/list",
+    "describe": "贷款产品下拉列表",
+    "method": "get"
+  },
+  {
+    "name": "createOrUpdateLoanProducts",
+    "path": "/api/admin/loanProducts/createOrUpdate",
+    "describe": "创建或更新贷款产品",
+    "method": "post"
+  },
+  {
+    "name": "delLoanProducts",
+    "path": "/api/admin/loanProducts/delect",
+    "describe": "删除贷款产品",
+    "method": "post"
+  },
+  {
+    "name": "getGuaranteeList",
+    "path": "/api/admin/guarantee/page",
+    "describe": "获取担保人列表",
+    "method": "get"
+  },
+  {
+    "name": "createOrUpdateGuarantee",
+    "path": "/api/admin/guarantee/createOrUpdate",
+    "describe": "创建或更新担保方",
+    "method":"post"
+  },
+  {
+    "name": "getGuaranteeDetail",
+    "path": "/api/admin/guarantee/guaranteeDetail",
+    "describe": "担保方详情",
+    "method":"get"
+  },
+  {
+    "name": "getApproalRecord",
+    "path": "/api/admin/customerInput/approvalRecord",
+    "describe": "资信录入-审核记录",
+    "method":"get"
+  },
+  {
+    "name": "getBaseInfo",
+    "path": "/api/admin/customerInput/basicInformation",
+    "describe": "资信录入-基础信息详情",
+    "method":"get"
+  },
+  {
+    "name": "getCompanyInfo",
+    "path": "/api/admin/customerInput/companyInformation",
+    "describe": "资信录入-公司经营信息详情",
+    "method": "get"
+  },
+  {
+    "name": "getAssetsListInfo",
+    "path": "/api/admin/customerInput/assetsPage",
+    "describe": "资信录入-资产信息列表",
+    "method": "get"
+  },
+  {
+    "name": "getDebtListInfo",
+    "path": "/api/admin/customerInput/liabilitiesPage",
+    "describe": "资信录入-负债信息列表",
+    "method": "get"
+  },
+  {
+    "name": "updateBaseInfo",
+    "path": "/api/admin/customerInput/updateBasicInformation",
+    "describe": "资信录入-基础信息更改",
+    "method": "post"
+  },
+  {
+    "name": "updateCompanyInfo",
+    "path": "/api/admin/customerInput/updateCompanyInformation",
+    "describe": "资信录入-公司经营信息更改",
+    "method": "post"
+  },
+  {
+    "name": "updateAssetsInfo",
+    "path": "/api/admin/customerInput/createOrUpdateAssets",
+    "describe": "资信信息-创建-更新资产信息",
+    "method": "post"
+  },
+  {
+    "name": "deleteAssetsInfo",
+    "path": "/api/admin/customerInput/deleteAssets",
+    "describe": "资信信息-删除资产信息",
+    "method": "post"
+  },
+  {
+    "name": "updateDebtInfo",
+    "path": "/api/admin/customerInput/createOrUpdateLiabilities",
+    "describe": "资信信息-创建-更新负债信息",
+    "method": "post"
+  },
+  {
+    "name": "deleteDebtInfo",
+    "path": "/api/admin/customerInput/deleteLiabilities",
+    "describe": "资信信息-删除负债信息",
+    "method": "post"
+  },
+  {
+    "name": "getImagesInfo",
+    "path": "/api/admin/customerInput/customerImagesPage",
+    "describe": "资信录入-图像资料列表",
+    "method": "get"
+  },
+  {
+    "name": "saveImgsList",
+    "path": "/api/admin/customerInput/createOrUpdateImages",
+    "describe": "资信信息-创建-更新图像资料",
+    "method": "post"
+  },
+  {
+    "name": "delImgsList",
+    "path": "/api/admin/customerInput/deleteImage",
+    "describe": "资信信息-删除图像资料",
+    "method": "post"
+  },
+  {
+    "name": "getProvalPageList",
+    "path": "/api/admin/customerApproval/approvalPage",
+    "describe": "资信查询列表分页",
+    "method": "get"
+  },
+  {
+    "name": "getVerifyList",
+    "path": "/api/admin/customerApproval/page",
+    "describe": "资信审核列表分页",
+    "method": "get"
+  },
+  {
+    "name": "getVerifyItemDetail",
+    "path": "/api/admin/customerApproval/approvalInformation",
+    "describe": "资信审核-审核结果详情",
+    "method": "get"
+  },
+  {
+    "name": "toVerifyItem",
+    "path": "/api/admin/customerApproval/customerApproval",
+    "describe": "资信审核",
+    "method": "post"
+  }
+]

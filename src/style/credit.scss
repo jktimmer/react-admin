@@ -1,0 +1,107 @@
+.credit {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+  input {
+    // width: 230px;
+    // height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  button {
+    padding: 0 20px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  .table {
+    margin: 14px 0 20px 0;
+    table {
+      font-size: 14px;
+      th:nth-last-child(2), td:nth-last-child(2) {
+        text-align: center;
+    
+      }
+      th:last-child, td:last-child {
+        text-align: center;
+      }
+      td, th {
+        word-break: keep-all;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.confirmcustom {
+  margin-top: 20px;
+  padding: 0 20px;
+  overflow: hidden;
+  .confirmHead {
+    margin-top: 40px;
+    font-size: 28px
+  }
+  .confirmContent {
+    margin: 0;
+    padding: 20px 30px;
+  }
+  .viewConifrmHead {
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+.credit_edit {
+  .edit_tabs {
+    .ant-tabs-nav {
+      margin-bottom: 0;
+      .ant-tabs-nav-list {
+        >div:first-child{
+          margin-left: 0 !important;
+        }
+        .ant-tabs-tab {
+          align-self: flex-start;
+          width: 150px;
+          justify-content: center;
+          padding: 10px 0;
+          border-radius: 4px;
+        }
+        .ant-tabs-tab.ant-tabs-tab-active {
+          background-color: #4E7ADE;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          .ant-tabs-tab-btn {
+            color: #fff;
+          }
+          .svg {
+            transform: scale(2);
+          }
+        }
+      }
+    }
+  }
+  .ant-tabs-content-holder {
+    z-index: 100;
+    .tabsContent {
+      padding: 24px;
+      margin: -10px 0;
+      position: relative;
+      .commonTitle {
+        font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      }
+    }
+    .addBtn {
+      position: absolute;
+      right: 20px;
+      top: 24px;
+    }
+  }
+  
+}
+.imgs .upfile{
+  width: 100% !important;
+}

@@ -1,0 +1,46 @@
+#user_center {
+  .rowItem {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    &:first-child {
+      margin-top: 20px;
+    }
+    .leftColItem {
+      margin-right: 20px;
+      flex: 1;
+      span {
+        font-size: 24px;
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+      }
+      span::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: -10px;
+        top: 6px;
+        height: 24px;
+        width: 4px;
+        background-color: blue;
+        border-radius: 2px;
+      }
+    }
+    .rightColItem {
+      text-align: left;
+      flex: 2;
+      .item {
+        color: grey;
+        font-size: 18px;
+        margin-top: 16px;
+        &:first-child{
+          margin-top: 0;
+        }
+        .itemCol {
+          color: #000;
+        }
+      }
+    }
+  }
+}
