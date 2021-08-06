@@ -1,5 +1,5 @@
 # react-admin
-an react admin (react 17, babel, Ant, redux, redux-thunk, ...), useing es6 and es5.
+an react admin (react 17, babel, Ant, redux, ...), useing es6 and es5.
 # yarn server
 start a web api server which default port is 4560.
   - use base.json to set api data<br>
