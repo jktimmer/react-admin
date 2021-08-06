@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import thunkMiddleware from 'redux-thunk';
+// import thunkMiddleware from 'redux-thunk';
 import routerReducer from './reducers/index';
 import { reduxRouterMiddleware, logger, common } from './middleware/index';
 function initStore(initialState) {
@@ -8,7 +8,7 @@ function initStore(initialState) {
     : createStore;
   const createStoreMiddleware = applyMiddleware(
     reduxRouterMiddleware,
-    thunkMiddleware,
+    // thunkMiddleware,
     logger,
     common
   )(create);
